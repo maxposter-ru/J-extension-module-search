@@ -1,0 +1,22 @@
+.mod-maxposter-search {}
+.mod-maxposter-search label {
+    display:block;
+    }
+    .mod-maxposter-search select {
+        width:14em;
+        }
+.mod-maxposter-search fieldset {}
+    .mod-maxposter-search fieldset label,
+    .mod-maxposter-search fieldset input {
+        float:left;
+        }
+    .mod-maxposter-search fieldset label {
+        margin:auto 6px;
+        line-height:2em;
+        }
+    .mod-maxposter-search fieldset label[for^="maxposter_search_price_"] {
+        width:1em;
+        }
+    .mod-maxposter-search fieldset label[for^="maxposter_search_price_to"] {
+        clear:left;
+        }
